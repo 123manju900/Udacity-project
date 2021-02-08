@@ -67,3 +67,7 @@ In HyperDrive, I was able to tune the hyperparameters of logistic regression wit
 
 ## Future Work ##
 In future experiments, I want to try other models with with classification and see how they work. And I would also try median stopping policy as early termination policy and see how the accuracy of the model changes since this  policy computes running averages across all training runs and terminates runs with primary metric values worse than the median of averages.And I would see also reduce the number of cross folds and see how it affects accuracy as the number of folds increases , the time training for the model also increases and hence cost of training also increases. 
+
+
+## Cluster delete
+![cluster delete](https://user-images.githubusercontent.com/51949018/107221281-6d0a3e00-6a39-11eb-9bd9-09b3ee50831b.png)
