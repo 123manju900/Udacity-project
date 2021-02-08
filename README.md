@@ -29,7 +29,8 @@ The data is split in training and testing data
 
 The training data is fed into Logistic Regression
 
-__HyperParameters:__ * C:* Inverse of regularisation
+__HyperParameters:__ 
+                     *C:* Inverse of regularisation
 
                       I have chosen discrete parameters choice(100, 10, 1.0, 0.1, 0.01)
                       
