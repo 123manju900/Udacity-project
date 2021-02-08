@@ -48,7 +48,16 @@ slack factor: The slack allowed with respect to the best performing run
 ![hyperdrive result](https://user-images.githubusercontent.com/51949018/107182263-6a402680-6a02-11eb-9797-3a3cedd836cf.png)
 
 ## AutoML pipeline ##
-My AutoML ran for 27 iterations in 30 mintutes. The best model is _votingEnsemble_ . The primary metric I used is __Acuraccy__ and Number of cross_validations as 6 for my AutoML configuation and I got an accuracy score of **0.9171** 
+My AutoML ran for 27 iterations in 30 mintutes. The best model is _votingEnsemble_ . The primary metric I used is __Acuraccy__ and Number of cross_validations as 6 for my AutoML configuation and I got an accuracy score of **0.9171**
+
+And the autoML model is                                                                             min_samples_split=0.2442105263157895,
+                                                                                                    min_weight_fraction_leaf=0.0,
+                                                                                                    n_estimators=10,
+                                                                                                    n_jobs=1,
+                                                                                                    oob_score=False,
+                                                                                                    random_state=None,
+                                                                                                    verbose=0,
+                                                                                                    warm_start=False
 
 ![automl result](https://user-images.githubusercontent.com/51949018/107182934-bb044f00-6a03-11eb-83ad-c19292e77977.png)
 ![auto_graph](https://user-images.githubusercontent.com/51949018/107183068-03237180-6a04-11eb-91c5-9fd0fec0755b.png)
